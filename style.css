@@ -20,6 +20,7 @@
    
     --maximo_largura:1000px;
     --minimo_largura:450px;
+    --logos_redes_sociais:30px;
 }
 
 
@@ -217,7 +218,7 @@ aside  div.Info_adicionais_contados{
   
    
 }
-aside a{
+aside a , footer a{
     background-color: crimson;
     color: white;
     text-decoration: none;
@@ -236,7 +237,7 @@ footer{
     
 }
 
-footer p{
+footer p {
     font-weight: normal;
     text-align: center;
 }
@@ -246,4 +247,7 @@ footer p{
     min-width: 200px;
     width: 20%;
     border-radius: 50%;
+}
+.Info_adicionais_contados img{
+    width: var(--logos_redes_sociais);
 }
