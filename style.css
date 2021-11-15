@@ -8,12 +8,13 @@
     padding: 0px;
 }
 :root{
-    --color0: #267302;
-    --color1: #4C593F;
-    --color2: #BDBF6F;
-    --color3: #F2C063;
-    --color4: #668B3D;
-    --color5: #e9c88b;
+    /**--color0: #267302;*/
+    --color1: #4C593F;/***/
+    --color2: #BDBF6F;/***/
+    /**--color3: #F2C063;*/
+    --color4: #668B3D;/***/
+    /**--color5: #e9c88b;*/
+    --color6: #dc143c;
 
     --font_padrao: Arial, Verdana, Helvetica, sans-serif;
     --font_logo:'Amarante', cursive;
@@ -26,7 +27,7 @@
 
 
 body{
-/**background-color: var(--color2);*/
+
    background-image: linear-gradient(0deg, var(--color4), var(--color1), var(--color1));
 }
 header{
@@ -219,7 +220,7 @@ aside  div.Info_adicionais_contados{
    
 }
 aside a , footer a{
-    background-color: crimson;
+    background-color: var(--color6);
     color: white;
     text-decoration: none;
     padding: 0px 10px;
